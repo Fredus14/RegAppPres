@@ -45,7 +45,7 @@ http://fredus.shinyapps.io/RegApp
 * Scatter plots of all variable combinations.
 * Distribution histograms of all variables.
 * Correlation coefficients with respective significance indicator (font size and stars).
-* Helps the identify colinearity of regressors/predictors.
+* Help the identification collinearity of regressors/predictors.
 </br>
 </br>
 </br>
@@ -68,7 +68,7 @@ http://fredus.shinyapps.io/RegApp
 - Select the data set
 - Select the desired outcome variable 
 - Select the desired predictor variables
-- Toggle to the ``Model Summary tab`` to see details such as residual and coefficient summaries.
+- Toggle to the ``Model Summary`` tab to see details such as residuals and coefficients summaries.
 
 </br>
 </br>
@@ -90,15 +90,12 @@ http://fredus.shinyapps.io/RegApp
 </br>
 </br>
 
-- Toggle to ``Diagnostic Plots tab``
-- These plots help assess the model by assessing the properties of residuals
+- Toggle to ``Diagnostic Plots`` tab.
+- These plots help to assess the fit of the model generated as well as the patern of residuals (normality, scedastcity, influential points, etc). 
 
 </br>
 </br>
-</br>
-</br>
 ``Thank you`` for assessing the app. 
-</br>
 </br>
 Hope it will be as useful as was fun to make it!
 
