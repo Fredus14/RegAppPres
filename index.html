@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Regression Model Analyser</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Regression Model Analyser">
+  <meta name="author" content="Fabio M. R. Amaral">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Regression Model Analyser</h1>
+    <h2>An app to help you build linear regression models</h2>
+    <p>Fabio M. R. Amaral<br/>Developing Data Products (Johns Hopkins - Coursera)</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Regression Model Analyser</h2>
+  </hgroup>
+  <article data-timings="">
+    <p></br></p>
+
+<h4>An app to help you build linear regression models</h4>
+
+<ul>
+<li>Developed to automate the process of creating linear regression models.</li>
+<li>Analysis is done in R language without having to know any programming.</li>
+<li>Each step in the regression modelling can be accessed by simple tab toggles.
+</br></li>
+</ul>
+
+<h4>App Features in Tabs</h4>
+
+<ul>
+<li>Selection of data sets (including data set uploaded by user)</li>
+<li>The Correlation Matrix Plot</li>
+<li>Model Summary</li>
+<li>Diagnostic Plots</li>
+<li>Visualization of the raw data</li>
+</ul>
+
+<p><a href="http://fredus.shinyapps.io/RegApp">http://fredus.shinyapps.io/RegApp</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Correlation Matrix Plot</h2>
+  </hgroup>
+  <article data-timings="">
+    <p></br></p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p></br></p>
+
+<ul>
+<li>Uses package <code>PerformanceAnalytics</code>.</li>
+<li>Helps identify the most relevant variables.</li>
+<li>Scatter plots of all variable combinations.</li>
+<li>Distribution histograms of all variables.</li>
+<li>Correlation coefficients with respective significance indicator (font size and stars).</li>
+<li>Helps the identify colinearity of regressors/predictors.
+</br>
+</br>
+</br>
+<a href="http://fredus.shinyapps.io/RegApp">http://fredus.shinyapps.io/RegApp</a></li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="assets/fig/unnamed-chunk-1-1.png" alt="Scatter plot correlation matrix."> </p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Model Summary</h2>
+  </hgroup>
+  <article data-timings="">
+    <p></br>
+</br>
+</br></p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>Select the data set</li>
+<li>Select the desired outcome variable </li>
+<li>Select the desired predictor variables</li>
+<li>Toggle to the <code>Model Summary tab</code> to see details such as residual and coefficient summaries.</li>
+</ul>
+
+<p></br>
+</br>
+</br>
+<a href="http://fredus.shinyapps.io/RegApp">http://fredus.shinyapps.io/RegApp</a></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="images/summary.png" align="middle" width=490></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Diagnostic Plots</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p></br>
+</br></p>
+
+<ul>
+<li>Toggle to <code>Diagnostic Plots tab</code></li>
+<li>These plots help assess the model by assessing the properties of residuals</li>
+</ul>
+
+<p></br>
+</br>
+</br>
+</br>
+<code>Thank you</code> for assessing the app. 
+</br>
+</br>
+Hope it will be as useful as was fun to make it!</p>
+
+<p></br>
+<a href="http://fredus.shinyapps.io/RegApp">http://fredus.shinyapps.io/RegApp</a></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img src="assets/fig/unnamed-chunk-2-1.png" alt="Residual Plot Analysis and Diagnostics"> </p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Regression Model Analyser'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Correlation Matrix Plot'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Model Summary'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Diagnostic Plots'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
